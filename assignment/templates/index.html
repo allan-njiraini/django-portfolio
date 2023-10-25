@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+      
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-warning">Portfolio</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+    
+           <ul class="navbar-nav">
+        <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#languages">Languages</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+          </li>
+    
+           </ul>
+    
+        </div>
+          <nav class="navbar bg-light">
+          <div class="container-fluid">
+          <a class="navbar-brand"></a>
+            <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static "images/unsplash6.jpg" %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static "images/unsplash4.jpg" %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{% static "images/unsplash3.jpg" %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br>
+<br>
+<div id="about" class="section-header text-center pb-5">
+  <h2>About Myself</h2>
+  <p>Hello, I'm Allan, a passionate and creative web developer with a flair for crafting elegant, user-friendly, and functional websites. I thrive on turning complex ideas into intuitive, user-centered digital experiences.What motivates me is the idea that the web is an ever-evolving canvas, and each project is an opportunity to leave a lasting digital footprint. I'm committed to staying on top of the latest industry trends, best practices, and emerging technologies to deliver cutting-edge solutions to my client</p>
+</div>
+<br>  
+<br>
+
+   
+<br>
+<br>
+<section id="services" class="services section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h2>Our Services</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br> sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-laptop"></i>
+              <h3 class="card-title">Web Design</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-slack"></i>
+              <h3 class="card-title">Consultation</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-check-square-fill"></i>
+              <h3 class="card-title">Data Management</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Read More</button>
+            </div>
+          </div>
+    </div>
+  
+</section>
+
+<br>
+<br>
+<br>
+
+<section id="languages" class="services section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h2>Programming Languages</h2>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-filetype-html"></i>
+              <h3 class="card-title">HTML</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Request</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-filetype-css"></i>
+              <h3 class="card-title">CSS</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Request</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-bootstrap-fill"></i>
+              <h3 class="card-title">Bootstrap</h3>
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <button class="btn btn-warning text-dark">Request</button>
+            </div>
+          </div>
+    </div>
+  
+</section>
+<br>
+<br>
+
+<div id="contact" class="section-header text-center pb-5">
+  <h2>Contact Us</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br> sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+</div>
+
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+<br>
+<br>
+
+<div class="container1">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127645.25850040639!2d36.80645492581956!3d-1.21969603898356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x182f15f4ba14b10b%3A0x660dcf922494d6cb!2sQVJQ%2B4GH%2C%20Nairobi!3m2!1d-1.2196973!2d36.8888569!5e0!3m2!1sen!2ske!4v1696584386484!5m2!1sen!2ske" width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<footer class="bg-dark p-2 text-center">
+  <div class="container">
+      <p class="text-white">All Rights Reserved @website Name</p>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
